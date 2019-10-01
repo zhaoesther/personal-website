@@ -2,7 +2,7 @@
     width: 100%;
     height: 100%;
     float: left;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
     text-align: center;
     cursor: default;
@@ -10,15 +10,15 @@
   
   .hovereffect .overlay {
     position: absolute;
-    overflow: hidden;
+    /* overflow: hidden; */
     width: 80%;
     height: 80%;
     left: 10%;
     top: 10%;
     /* border-bottom: 1px solid #FFF; */
     border-top: 1px solid #FFF;
-    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transition: opacity 0.25s, -webkit-transform 0.25s;
+    transition: opacity 0.25s, transform 0.25s;
     -webkit-transform: scale(0,1);
     -ms-transform: scale(0,1);
     transform: scale(0,1);
@@ -35,8 +35,8 @@
   .hovereffect img {
     display: block;
     position: relative;
-    -webkit-transition: all 0.35s;
-    transition: all 0.35s;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
   }
   
   .hovereffect:hover img {
@@ -55,8 +55,8 @@
     padding: 1em 0;
     opacity: 0;
     filter: alpha(opacity=0);
-    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transition: opacity 0.25s, -webkit-transform 0.25s;
+    transition: opacity 0.25s, transform 0.25s;
     -webkit-transform: translate3d(0,-100%,0);
     transform: translate3d(0,-100%,0);
   }
@@ -66,8 +66,8 @@
     padding: 1em 0;
     opacity: 0;
     filter: alpha(opacity=0);
-    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transition: opacity 0.25s, -webkit-transform 0.25s;
+    transition: opacity 0.25s, transform 0.25s;
     -webkit-transform: translate3d(0,100%,0);
     transform: translate3d(0,100%,0);
   }

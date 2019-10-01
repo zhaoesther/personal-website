@@ -1,0 +1,11 @@
+.grid-item {
+    max-width: 350px;
+    padding: 10px;
+    float: left;
+}
+
+.grid-item-width--2 {
+    max-width: 400px;
+    padding: 10px;
+    float: left;
+}
