@@ -1,9 +1,7 @@
 html {
     scroll-behavior: smooth;
 }
-* {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-}
+
 body {
     padding-top: 60px;
 }
@@ -12,6 +10,7 @@ body {
       padding-top: 0px;
     }
 }
+
 h1 {
     margin-top: 2em;
 }
@@ -22,6 +21,10 @@ hr {
     background-color: #ffab8c;
     margin-left: 0;
     border: 0;
+}
+
+#bio {
+    padding: 2em 5em 2em 0;
 }
 
 .navbar {
