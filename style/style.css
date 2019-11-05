@@ -1,91 +1,95 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    padding-top: 60px;
+  padding-top: 60px;
 }
 @media (max-width: 979px) {
-    body {
-      padding-top: 0px;
-    }
+  body {
+    padding-top: 0px;
+  }
 }
 
-h1, h2 {
-    margin-top: 2em;
+h1,
+h2 {
+  margin-top: 2em;
 }
 h4 {
-    font-size: 1.1em;
+  font-size: 1.1em;
 }
 h5 {
-    font-size: 1em;
+  font-size: 1em;
+}
+.links {
+  float: right;
 }
 hr {
-    display: block;
-    height: 6px;
-    width: 70px;
-    background-color: #ffab8c;
-    margin-left: 0;
-    border: 0;
+  display: block;
+  height: 6px;
+  width: 70px;
+  background-color: #ffab8c;
+  margin-left: 0;
+  border: 0;
 }
 
 #bio {
-    padding: 2em 5em 2em 0;
+  padding: 2em 5em 2em 0;
 }
 
 .navbar {
-    padding: 0;
-    padding-top: 1em;
-    background-color: white;
+  padding: 0;
+  padding-top: 1em;
+  background-color: white;
 }
 .img-fluid {
-    margin-top: 2em;
-    margin-bottom: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 a {
-    color: black;
-    text-decoration: none;
-    background-color: transparent;
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
 }
 a:hover {
-    color: #ffab8c;
+  color: #ffab8c;
 }
 .navbar-nav li:active a {
-	color: #ffab8c;
+  color: #ffab8c;
 }
 a.anchor {
-    display: block;
-    position: relative;
-    top: -10px;
-    visibility: hidden;
+  display: block;
+  position: relative;
+  top: -10px;
+  visibility: hidden;
 }
 
 i {
-    margin: 0.2em;
+  margin: 0.2em;
 }
 
 .container.main {
-    margin-top: 2em;
-    margin-bottom: 4em;
+  margin-top: 2em;
+  margin-bottom: 4em;
 }
 
 .project-header {
-    margin-top: 2em;
-    margin-bottom: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 /* [1] The container */
 .img-hover-zoom {
-    height: 300px; /* [1.1] Set it as per your need */
-    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
-  }
-  
-  /* [2] Transition property for smooth transformation of images */
-  .img-hover-zoom img {
-    transition: transform .5s ease;
-  }
-  
-  /* [3] Finally, transforming the image when container gets hovered */
-  .img-hover-zoom:hover img {
-    transform: scale(1.1);
-  }
+  height: 300px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform 0.5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.1);
+}
